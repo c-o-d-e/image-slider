@@ -3,3 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body,
+html {
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 16px;
+}
+
+#slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto auto;
+  height: 100vh;
+}
+
+#slider-box {
+  width: 43.75rem;
+  height: auto;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: flex;
+}
+
+#img1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+}
